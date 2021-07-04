@@ -1,19 +1,31 @@
 body {
-  background-color: grey;
+  background-color: white;
 }
 
 h1 {
-  color: brown;
+  color: #361c00;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  margin-left: auto;
+  width: 20%;
 }
 
 div {
-  position: -webkit-sticky;
-  position: sticky;
-  color: white;
+  /* position: -webkit-sticky;
   top: 200px;
+  position: sticky; */
+  position: fixed;
+  position: bottom;
+  color: white;
+  border: 4px solid #361c00;
 }
 
 p {
-  color: green;
+  color: #086100;
   font-size: 50px;
 }
