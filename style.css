@@ -1,0 +1,19 @@
+body {
+  background-color: grey;
+}
+
+h1 {
+  color: brown;
+}
+
+div {
+  position: -webkit-sticky;
+  position: sticky;
+  color: white;
+  top: 200px;
+}
+
+p {
+  color: green;
+  font-size: 50px;
+}
